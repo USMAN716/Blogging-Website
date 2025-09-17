@@ -1,9 +1,10 @@
 {
-  "name": "Blogging-Website",
+  "name": "blogging-website",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node index.js"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --dist-dir dist"
   }
 }
 
